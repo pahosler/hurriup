@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>hurriup.org</title>
+    <meta name="author" content="Paul Hosler 2017">
+    <meta name="description" content="hurriup.org landing page. hurriup.org is dedicated to helping people who have been affected by a natural disaster and providing information about preparing for hurricanes and other natural disaster.">
+    <meta name="keywords" content="hurricane, generators, donate, wunderground, portlight, tropical-tidbits, reliefweb, disaster, preparedness, preparation, weather">
+    <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700|Raleway:300,400,500,700" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108382239-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-108382239-1');
+    </script>
+</head>
+
+<body>
+    <div class="ticker">
+        <li>
+            <p>Puerto Rico was hit with a new power outage Thursday Nov 9th</p>
+        </li>
+        <li>
+            <p>several cities, including the capital of San Juan, without power</p>
+        </li>
+        <li>
+            <p>More pictures from Puerto Rico coming soon</p>
+        </li>
+        <li>
+            <p>Visit often for updates and upcoming events</p>
+        </li>
+    </div>
+    <!-- start donate button -->
+    <div class="donate">
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="P2S2YE9E2Z2GG">
+            <button class="btn-donate btn btn-default" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><i class="heart fa fa-heart-o fa-fw" aria-hidden="true"></i>
+        <span id="donate"> DONATE</span></button>
+        </form>
+    </div>
+    <!-- ends donate button -->
+    <section id="home" name="home"></section>
+    <!-- start header -->
+    <header class="header container-fluid">
+
+        <div class="row mission">
+            <div class="col-md-offset-4 col-md-4">
+                <p class="statement">
+                    OUR MISSION AT HURRIUP.ORG IS TO EDUCATE AND INFORM THE PUBLIC ABOUT HURRICANE AWARENESS, PREPARATION AND DIRECTED DISASTER RELIEF.
+                </p>
+            </div>
+        </div>
+        <div class="row mission">
+            <div class="col-md-offset-4 col-md-4">
+                <img class="img-responsive" src="assets/img/hurriup-003.png" />
+            </div>
+        </div>
+        <div class="video-container hidden-xs">
+            <video class="video-bg" preload="true" autoPlay="autoplay" loop="loop">
+        <source src="assets/img/hurricane-irma.mp4" type="video/mp4"/>
+      </video>
+        </div>
+        <div class="visible-xs maria-container">
+            <img class="hurricane-maria" src="assets/img/maria-rammb-2117-sep18.jpg" />
+        </div>
+    </header>
+    <!-- header ends -->
+    <!-- start nav -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+                <a class="navbar-brand menu" href="#home">Home</a>
+            </div>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a class="menu" href="#about">About</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="menu dropdown-toggle" data-toggle="dropdown" href="#">Helpful Links
+              <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="https://www.wunderground.com/blog/Patrap/hurricane-preparation-2016.html" target="_blank">Hurricane Preparation</a></li>
+                            <li><a href="http://www.nws.noaa.gov/nwr/" target="_blank ">NOAA Weather Radio</a></li>
+                            <li><a href="https://www.ready.gov/build-a-kit" target="_blank">Build-A-Kit</a></li>
+                            <li><a href="https://www.wunderground.com/cat6" target="_blank">Cat6</a></li>
+                            <li><a href="https://www.fema.gov/" target="_blank">FEMA</a></li>
+                        </ul>
+                        <li>
+                            <a class="menu" href="#contact">Contact</a>
+                        </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <form class="menu" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                            <input type="hidden" name="cmd " value="_s-xclick ">
+                            <input type="hidden" name="hosted_button_id " value="P2S2YE9E2Z2GG">
+                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            <img alt=" " border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav ends -->
+    <section id="news" name="news"></section>
+    <div class="app">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-offset-2 col-md-8">
+                    <div class="news-box center-block">
+                        <div class="current">
+                            <div class="news-title">
+                                <p>Current News:</p>
+                            </div>
+                        </div>
+                        <p class="news"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="volume"> </div>
+    <div class="volume"> </div>
+    <section id="about" name="about"></section>
+
+    <!-- starts about -->
+    <div class="container about">
+        <div class="row">
+
+            <div class="col-md-4">
+                <img src="assets/img/smiling-generator-recipient-puerto-rico.jpg " class="img-rounded img-responsive " alt="Young woman receives two generators for her family in Puerto Rico. " />
+            </div>
+            <div class="col-md-8 ">
+                <p class="about ">
+                    Karynell received two generators for her family in Puerto Rico. One for herself and her family and another for her father and grandmother. Her grandmother is diabetic and has been running an extension cord from a neighbor’s home to keep her insulin cold.
+                </p>
+                <p class="about quote ">
+                    “Yes my grandmom is diabetic so she is going to be more than blessed with this. Yes they have a power cord to the neighbor’s house so they can keep the insulin cold”
+                </p>
+                <p class="about quote ">
+                    “I don’t have words to thank y’all for this. My sister was crying on the phone and my heart is beating so fast because I know this is really important for them. Thanks thanks a lot. She got it and yall make a wish come true.”
+                </p>
+                <p class="about ">
+                    hurriup.org could not have made this happen without your support and the team effort required to get these and 20 other generators to those who need them in Puerto Rico. According to USA today, “six weeks since hurricane Maria and 70% of Puerto Rico is
+                    still without power”. With a population of 3.4 million inhabitants, this means that about 2.3 million people are living without many basic necessities. The Puerto Rican government predicts that only 95% power will hopefully be restored
+                    by December. People like Karynell’s grandmother struggle to maintain their medical supplies or devices now and can not wait until December or possibly even longer.
+                </p>
+                <p class="about ">
+                    With your support we can purchase more generators to send to Puerto Rico. For every $5000 US dollars we raise, we can purchase and ship twelve generators. We have been able to ship 22 generators so far. Many more are urgently needed.
+                </p>
+            </div>
+        </div>
+        <div class="volume "> </div>
+        <div class="row ">
+
+            <div class="col-md-12 ">
+                <p class="about center " style="font-size: 2em; width: 90%; margin: 0 auto; ">
+                    We ask for your support in this effort as we make direct impacts to those who need relief the most. Currently we are providing generators for those in Puerto Rico.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- ends about -->
+    <div class="volume "> </div>
+    <section name="Gallery" id="gallery">
+        <div class="container gallery ">
+            <div class="col-md-offset-2 col-md-10 col-xs-offset-2 col-xs-10">
+                <div class="row">
+                    <div class="grid">
+                        <div class="grid-sizer"></div>
+                        <div class="zoom-gallery">
+                            <div class="grid-item">
+                                <a href="assets/img/puerto-rico-2.jpg" data-source="assets/img/puerto-rico-2.jpg" title="Hurricane Maria damage">
+                                    <img class="img-responsive" src="assets/img/puerto-rico-2.jpg" alt=" " />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/puerto-rico-3.jpg" data-source="assets/img/puerto-rico-3.jpg" title="Hurricane Maria damage">
+                                    <img class="img-responsive" src="assets/img/puerto-rico-3.jpg" alt=" " />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+
+                                <a href="assets/img/puerto-rico-4.jpg" data-source="assets/img/puerto-rico-4.jpg" title="Hurricane Maria damage">
+                                    <img class="img-responsive" src="assets/img/puerto-rico-4.jpg" alt=" " />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/puerto-rico-5.jpg" data-source="assets/img/puerto-rico-5.jpg" title="Hurricane Maria damage">
+                                    <img class="img-responsive" src="assets/img/puerto-rico-5.jpg" alt=" " />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/puerto-rico-6.jpg" data-source="assets/img/puertorico-6.jpg" title="Hurricane Maria damage">
+                                    <img class="img-responsive" src="assets/img/puerto-rico-6.jpg" alt=" " />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/puerto-rico-7.jpg" data-source="assets/img/puerto-rico-7.jpg" title="Hurricane Maria damage">
+                                    <img class="img-responsive" src="assets/img/puerto-rico-7.jpg" alt=" " />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/puerto-rico-8.jpg" data-source="assets/img/puerto-rico-8.jpg" title="Hurricane Maria damage">
+                                    <img class="img-responsive" src="assets/img/puerto-rico-8.jpg" alt=" " />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/Electricity-transformers-destroyed-by-hurricane-Maria.jpg" data-source="assets/img/Electricity-transformers-destroyed-by-hurricane-Maria.jpg" title="Hurricane damaged power grin in Puerto Rico">
+                                    <img class="img-responsive" src="assets/img/Electricity-transformers-destroyed-by-hurricane-Maria.jpg" alt="Hurricane damaged power grin in Puerto Rico" />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/puerto-rico-maria-damage.jpg" data-source="assets/img/puerto-rico-maria-damage.jpg" title="Puerto Rico hurricane Maria damage">
+                                    <img class="img-responsive" src="assets/img/puerto-rico-maria-damage.jpg" alt="Puerto Rico hurricane Maria damage" />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/genny1.jpg" data-source="assets/img/genny1.jpg" title="Pup guarding generators">
+                                    <img class="img-responsive" src="assets/img/genny1.jpg" alt="Pup guarding generators" />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/ikerelieft.jpg" data-source="assets/img/ikerelieft.jpg" title="Teresa getting water ready to ship to Ike victims">
+                                    <img class="img-responsive" src="assets/img/ikerelieft.jpg" alt="Teresa getting water ready to ship to Ike victims" />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/portlight_crutches.jpg" data-source="assets/img/portlight_crutches.jpg" title="portlight.org delivering crutches to people in need">
+                                    <img class="img-responsive" src="assets/img/portlight_crutches.jpg" alt="portlight.org delivering crutches to people in need" />
+                                </a>
+                            </div>
+                            <div class="grid-item">
+                                <a href="assets/img/pat-with-noaa-g4.jpg" data-source="assets/img/pat-with-noaa-g4.jpg" title="Pat with the NOAA G-4 Hurricane Hunter high flyer.">
+                                    <img class="img-responsive" src="assets/img/pat-with-noaa-g4.jpg" alt="Pat with the NOAA G-4 Hurricane Hunter high flyer." />
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Gallery -->
+
+    <section id="generators" name="generators"></section>
+    <div class="volume "> </div>
+    <!-- starts generators -->
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-offset-4 col-md-4 ">
+                <p class="about center " style="font-size: 2.5em; font-weight: 600; ">
+                    We can purchase 12 generators for $5000 US Dollars with shipping included
+                </p>
+                <form class="center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="P2S2YE9E2Z2GG">
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                    <img alt=" " border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                </form>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-md-12 ">
+                <div class="volume "></div>
+                <div style="width: 100%; background-color: #ffc ">
+                    <p style="font-size: 1.5em; width:80%; margin: 0 auto;text-align: justify">Thanks to your support, twenty-five generators and dedicated relief supplies were delivered on Monday October 16, 2017 by our contact in Puerto Rico. The shipment was dedicated to residents in the mountains who requested tarps, generators,
+                        and other needed supplies. Our contact received one generator for his family and the remaining shipment was distributed by another contact assisting the farmers. From there, Karynell received two generators while the rest of the
+                        generators and supplies were given to the farmers. Everything went smoothly. Thank you to everyone who had a hand in making this mission a great success.</p>
+                </div>
+            </div>
+        </div>
+        <div class="volume "> </div>
+        <div class="row ">
+            <div class="col-md-4 ">
+                <div class="center-block " style="height: 300px; width: 300px; border: solid 1px transparent; border-radius: 50%; padding: 70px 30px 30px 30px ">
+                    <p style="font-size: 3em; text-align:center; ">
+                        Thank Y<i class=" heart fa fa-heart-o fa-fw " aria-hidden="true "></i>U for supporting our efforts
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div style="padding: 10px; ">
+                    <img class="img-responsive img-circle thankyou center-block " src="assets/img/caicosgennys_1.jpg " alt="Generators headed for Puerto Rico " />
+                </div>
+            </div>
+            <div class="col-md-4 ">
+                <div style="padding: 10px; ">
+                    <img class="img-responsive img-circle thankyou center-block " src="assets/img/capnb.jpg " alt="Thank you hurriup.org and portlight.org " />
+                </div>
+            </div>
+        </div>
+        <div class="volume "></div>
+        <div class="row ">
+            <div class="col-md-12 ">
+                <p class="center " style="width: 80%; font-family: Raleway; font-size: 1.8em;font-weight: 700; margin: 0 auto; ">Many thanks to the groups who coordinated the relief run into Puerto Rico, as it was a total team effort.</p>
+            </div>
+        </div>
+    </div>
+    <!-- ends generators -->
+    <section id="featured" name="featured"></section>
+    <div class="volume "></div>
+    <!-- starts featured -->
+    <p class="center featured ">FEATURED ARTICLES</p>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-4 col-sm-6 ">
+                <div class="thumbnail center-block ">
+                    <div class="thumb ">
+                        <a href="https://www.wunderground.com/blog/Patrap/hurricane-preparation-2016.html " target="_blank"><img src="assets/img/HuRLO-man.gif " alt="hurricane preparation article " /></a>
+                    </div>
+                    <div class="thumb-txt ">
+                        <p><strong>Hurricane Preparation 2017</strong> By: Patrap<br> It's time to dust off that family disaster plan, or in many cases, create one.<br> Keeping your family safe during a hurricane starts with proper planning.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 ">
+                <div class="thumbnail center-block ">
+                    <div class="thumb ">
+                        <a href="http://www.wikihow.com/Prepare-for-a-Hurricane" target="_blank"><img src="assets/img/prepare-for-a-hurricane.jpg " alt="how to prepare for a hurricane " /></a>
+                    </div>
+                    <div class="thumb-txt ">
+                        <p><strong>Get Prepared:</strong> Hurricane season can be a nerve-racking time for everyone. Hurricanes are not only a concern for those whose homes are in the path of one, but for people who may worry about those in its path.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 ">
+                <div class="thumbnail center-block ">
+                    <div class="thumb ">
+                        <a href="https://www.aspca.org/pet-care/general-pet-care/disaster-preparedness" target="_blank"><img src="assets/img/pet-disaster-preparedness.jpg " alt="pet hurricane preparedness " /></a>
+                    </div>
+                    <div class="thumb-txt ">
+                        <p><strong>Pet Safety: </strong>Each type of disaster requires different measures to keep your pets safe, so the best thing you can do for yourself and your pets is to be prepared.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 ">
+                <div class="thumbnail center-block ">
+                    <div class="thumb ">
+                        <a href="http://www.uno.edu/cola/planning-and-urban-studies/docs/CarlessEvacuationPlanning.pdf" target="_blank"><img src="assets/img/prepare-elderly-for-hurricane-evacuation.jpg " alt="prepare elderly and special needs for hurricane evacuation " /></a>
+                    </div>
+                    <div class="thumb-txt ">
+                        <p><strong>Special need evacuation planning:</strong> Hurricanes Katrina and Rita were two of the largest evacuations in U.S. history. One of the main shortcomings was the lack of planning to evacuate carless residents, particularly
+                            minority, low-income, elderly, disabled,and LEP persons. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 ">
+                <div class="thumbnail center-block ">
+                    <div class="thumb ">
+                        <a href="https://www.wunderground.com/cat6 " target="_blank"><img src="assets/img/weather-underground-hurricane-conditions.jpg " alt="stay up to date on current hurricane conditions with weather underground " /></a>
+                    </div>
+                    <div class="thumb-txt ">
+                        <p><strong>Stay Informed:</strong> Stay up to date on current weather conditions and hurricane tracking.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 ">
+                <div class="thumbnail center-block ">
+                    <div class="thumb ">
+                        <a href="http://www.portlight.org/latest-portlight-announcement.html " target="_blank"><img src="assets/img/portlight-helping-disaster-victims.jpg " /></a>
+                    </div>
+                    <div class="thumb-txt ">
+                        <p><strong>Portlight:</strong> Latest Announcement<br> Greetings to our friends, supporters and everyone impacted by hurricanes Harvey, Irma and Maria over the past 33 days:<br>Thanks to each of you for your generous and ongoing support.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="volume "> </div>
+            <div class="col-md-offset-4 col-md-4 ">
+                <blockquote>
+                    <p>Calamity knows no borders, only Men's minds and maps do.</p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <!-- ends featured -->
+    <div class="volume "> </div>
+    <section id="awareness" name="awareness"></section>
+    <div class="volume "> </div>
+    <!-- start friends -->
+    <section id="friends" name="friends"></section>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-12 ">
+                <p class="center " style="font-family: 'Raleway'; font-size: 2em; font-weight: 600 ">OUR FRIENDS AND SPONSORS</p>
+            </div>
+        </div>
+        <div class="row friends ">
+            <div class="friends col-md-2 col-sm-4 col-xs-6 ">
+                <a href="https://www.wunderground.com/cat6 " target="_blank">
+                    <div class="friend center-block " style="height: 100px; width: 100px; background: url(assets/img/twco_ibm_logo_group_0.jpg) -190px 185px; background-size: 280px 280px ">
+                        <img src=" " />
+                    </div>
+                </a>
+            </div>
+            <div class="friends col-md-2 col-sm-4 col-xs-6 ">
+                <a href="http://www.portlight.org/home.html" target="_blank">
+                    <div class="friend center-block ">
+                        <img src="assets/img/portlight-logo.png " height="70 " width="70 " style="padding: 1px; margin-left: 10px " alt="Portlight " />
+                    </div>
+                </a>
+            </div>
+            <div class="friends col-md-2 col-sm-4 col-xs-6 ">
+                <a href="# " target="_blank">
+                    <div class="friend center-block ">
+                        <img src="assets/img/tropical-tidbits.svg " alt="Tropical Tidbits " style="height: 90px; width: 84px; margin-top: 5px; margin-left: 5px " />
+                    </div>
+                </a>
+            </div>
+            <div class="friends col-md-2 col-sm-4 col-xs-6 ">
+                <a href="https://reliefweb.int/" target="_blank">
+                    <div class="friend center-block ">
+                        <img src="assets/img/reliefweb-logo.png " alt="reliefweb.int " style="height: 50px; width: 90px; margin-top: 25px; margin-left: 2px; " />
+                    </div>
+                </a>
+            </div>
+            <div class="friends col-md-2 col-sm-4 col-xs-6 ">
+                <a href="# " target="_blank">
+                    <div class="friend center-block ">
+                        <img src="assets/img/header-ca.gov.png" alt="" />
+                    </div>
+                </a>
+            </div>
+            <div class="friends col-md-2 col-sm-4 col-xs-6 ">
+                <a href="# " target="_blank ">
+                    <div class="friend center-block ">
+                        <img src=" " />
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- ends friends -->
+    <div class="volume "> </div>
+    <section id="contact" name="contact"></section>
+    <!-- starts contact -->
+    <div class="container-fluid ">
+        <div class="row ">
+            <div class="col-md-8 ">
+                <p>
+                    <strong>For additional information please send us a message with your request.</strong>
+                </p>
+                <form class="form" id="postmail">
+                    <div class="form-group">
+                        <label for="donar">Name:</label>
+                        <input type="text" class="form-control" id="donar" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="text" class="form-control" id="email" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" rows="5" id="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <p style="text-align: right">Powered by <a href="https://postmail.invotes.com" target="_blank">PostMail</a></p>
+                        <button id="sendbutton" type="button" class="btn btn-primary " style="font-size: 1.5em; ">
+  Send&nbsp;<i class="fa fa-paper-plane fa-fw "></i>
+  </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- ends contact -->
+    <div class="volume "> </div>
+    <!-- footer -->
+    <footer class="footer container-fluid ">
+        <div class="row ">
+            <div class="col-md-4 ">
+                <p style="color:white; margin-top: 10px; ">
+                    info@hurriup.org<br /> Pat or Teresa<br /> New Orleans, Louisiana<br /> 504.405.1555
+                </p>
+            </div>
+            <div class="col-md-4 ">
+                <ul class="nav nav-pills ">
+                    <li class="active ">
+                        <button class="btn btn-primary btn-round "><i class="fa fa-facebook fa-fw fa-2x "></i></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-info btn-round "><i class="fa fa-twitter fa-fw fa-2x "></i></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-danger btn-round "><i class="fa fa-google-plus fa-fw fa-2x "></i></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-warning btn-round "><i class="fa fa-instagram fa-fw fa-2x "></i></button>
+                    </li>
+                    <li>
+                        <button class="btn btn-default btn-round "><i class="fa fa-envelope fa-fw fa-2x "></i></button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 ">
+                <p style="font-size: .9em; color: #fff; margin-top: 20px; ">
+                    hurriup.org is a non-profit organization dedicated to helping people in disaster stricken areas. We are also here to provide information for emergency preparedness in the event of a possible natural disaster, i.e. a hurricane.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+    <script src="js/jquery.min.js" type="text/javascript "></script>
+    <script src="js/bootstrap.min.js" type="text/javascript "></script>
+    <script src="js/imagesloaded.pkgd.min.js" type="text/javascript "></script>
+    <script src="js/masonry.pkgd.min.js" type="text/javascript "></script>
+    <script src="js/nav.js" type="text/javascript "></script>
+    <script src="js/news-ticker.js" type="text/javascript "></script>
+    <script src="js/gallery.js" type="text/javascript "></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/zoom-gallery.js" type="text/javascript"></script>
+    <script src="js/postmail.js" type="text/javascript "></script>
+
+</body>
+
+</html>

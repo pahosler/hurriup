@@ -1,0 +1,469 @@
+.about {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix+.container-fluid {
+    padding-top: 20px;
+}
+
+blockquote {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    display: block;
+    background: #ffd;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+    border-left: 10px solid #c76c0c;
+    border-right: 2px solid #c76c0c;
+}
+
+blockquote::before {
+    content: "\201c";
+    font-size: 60px;
+    font-weight: bold;
+    color: #999;
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+blockquote::after {
+    content: "";
+}
+
+body {
+    background-color: #ffe;
+    font-family: 'Oswald', sans-serif;
+}
+
+.btn-round {
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 50% !important;
+    text-decoration: none !important;
+    outline: none !important;
+    padding: 5px !important;
+    margin: auto !important;
+}
+
+.btn-round:focus {
+    outline: none;
+    border: none;
+}
+
+.btn-round:active:focus {
+    outline: none;
+    border: none;
+    background-color: #555;
+}
+
+.btn-round:hover {
+    background-color: #555;
+}
+
+.btn-text {
+    padding-top: 3px;
+}
+
+.center {
+    text-align: center;
+}
+
+.carousel {
+    background: rgba(0, 200, 255, 0.4);
+}
+
+.carousel-control.left {
+    background: #00bbff;
+    background: -webkit-linear-gradient(to left, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)) !important;
+    background: -o-linear-gradient(to left, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)) !important;
+    background: -moz-linear-gradient(to left, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)) !important;
+    background: linear-gradient(to left, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)) !important;
+    color: #5ff;
+}
+
+.carousel-control.right {
+    background: #00bbff;
+    background: -webkit-linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)) !important;
+    background: -o-linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)) !important;
+    background: -moz-linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)) !important;
+    background: linear-gradient(to right, rgba(0, 0, 255, 0), rgba(0, 0, 255, 1)) !important;
+    color: #5ff;
+}
+
+.carousel-inner>.item>img {
+    margin: 0 auto;
+    height: 480px;
+    width: 352px;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate {
+    position: fixed;
+    top: 200px;
+    right: -2px;
+    z-index: 500;
+}
+
+.donate .btn-donate {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.donate #donate {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.featured {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.footer {
+    height: auto;
+    background-color: #000;
+}
+
+.footer a[type="button"]:active {
+    background-color: #555;
+    -webkit-filter: opacity(0);
+    filter: opacity(0);
+}
+
+.footer a[type="button"]:visited {
+    /* background-color: #555; */
+    -webkit-filter: opacity(0);
+    filter: opacity(0);
+}
+
+.footer a[type="button"]:hover {
+    background-color: #555;
+}
+
+.friend {
+    width: 100px;
+    height: 100px;
+    border: solid 5px #dd7700;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.friends {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#friends p {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #555555;
+    color: #fff;
+    height: 450px;
+    width: 100%;
+}
+
+.heart {
+    color: #f00;
+    font-weight: 600;
+}
+
+.hurricane-maria {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 480px;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+    width: 120px;
+}
+
+.logo-position {
+    margin-bottom: 30px;
+}
+
+.maria-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 480;
+    width: 100%;
+    background: rgba(80, 80, 80, 0.3);
+}
+
+.menu {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-top: 5px;
+    color: #000;
+}
+
+.mission {
+    position: relative;
+    top: 60px;
+    z-index: 2;
+}
+
+.navbar {
+    border-radius: 0;
+    background-color: #ffa;
+    color: #5ff;
+    z-index: 100;
+}
+
+.navbar-toggle {
+    background-color: #fe5;
+    color: #555;
+}
+
+.icon-bar {
+    background-color: #5df;
+}
+
+.dropdown li {
+    font-weight: 500;
+    font-size: 1.3em;
+    background-color: #ff9;
+    border-top-color: #ff9;
+    border-bottom-color: #ff9;
+}
+
+.nav-pills {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.statement {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    opacity: 100%;
+    padding: 10px;
+}
+
+.thankyou {
+    border: solid 1px #000;
+}
+
+.thumbnail {
+    background-color: #ffa;
+    border: solid 1px #000;
+    height: 410px;
+    width: 300px;
+}
+
+.thumb {
+    background-color: #ffc;
+    border: solid 1px #000;
+    height: 250px;
+    width: 280px;
+    margin: 10px auto;
+}
+
+.thumb>a>img {
+    height: 240px;
+    width: auto;
+}
+
+.thumb-txt {
+    overflow: hidden;
+    font-weight: 400;
+    font-size: 1.2em;
+    background-color: #ffd;
+    border: solid 1px #000;
+    height: 120px;
+    width: 280px;
+    margin: 0 auto;
+    padding: 5px;
+    line-height: 17px;
+}
+
+.video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 480px;
+    width: 100%;
+    background-color: #000;
+    -webkit-filter: opacity(0.6);
+    filter: opacity(0.6);
+}
+
+.video-bg {
+    position: relative;
+    top: -30px;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    height: 500px;
+    width: 100%;
+    /*filter: grayscale(100%);*/
+    -webkit-transform: scaleX(2.3);
+    -ms-transform: scaleX(2.3);
+    transform: scaleX(2.3);
+    z-index: -1;
+}
+
+
+/* Section divider and vert spacing */
+
+.volume {
+    height: 50px;
+}
+
+
+/* News Ticker*/
+
+.app {
+    width: 100%;
+}
+
+.news-box {
+    overflow: hidden;
+    position: absolute;
+    top: 15px;
+    height: 40px;
+    width: 90%;
+    border: 3px solid #dd7700;
+    padding: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ffa;
+}
+
+.news {}
+
+.news-title {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+}
+
+.ticker {
+    visibility: hidden;
+    position: absolute;
+    width: 60%;
+}
+
+.current {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 120px;
+    margin: auto;
+    color: #000;
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 1.5em;
+    background-color: #ffa;
+    z-index: 100;
+}
+
+.gallery {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    /* left: auto; */
+}
+
+
+/* clear fix */
+
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+    /* width: 33.333%; */
+    width: 20%;
+}
+
+.grid-item {
+    float: left;
+    /*height: 180px;
+     width: 180px;*/
+    margin-bottom: 5px;
+}
+
+.grid-item img {
+    display: block;
+    max-width: 100%;
+    cursor: zoom-in;
+}
+
+
+/* ---- zoom-gallery ---- */
+
+.image-source-link {
+    color: #98C3D1;
+}
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    /* ideally, transition speed should match zoom duration */
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+    opacity: 1;
+}
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+}
