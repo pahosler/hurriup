@@ -5,7 +5,7 @@ $(document).ready(function(){
   var $email = $el.find('#email');
   var $message = $el.find('#message');
   var data = {
-        access_token: "pqbms9ve7j58bll1zgsr3ooz"
+        access_token: "zxcpky49wbdyg8kudmhj9070"
     };
 
   function onSuccess() {
