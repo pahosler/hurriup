@@ -20,7 +20,6 @@ $(document).ready(function(){
     $sendBtn.prop('disabled',true)
     data['subject'] = "Message from hurrip.org landing page"
     data['text'] = `${$email.val()} ${$name.val()} ${$message.val()}`;
-
     $.post('https://postmail.invotes.com/send', data, onSuccess).fail(onError);
     return false;
   })
