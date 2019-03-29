@@ -1,0 +1,23 @@
+{
+  "name": "hurriup",
+  "version": "1.0.0",
+  "main": "index.html",
+  "repository": "git@github.com:pahosler/hurriup.git",
+  "author": "Paul Hosler <pahosler@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "desandro-matches-selector": "^2.0.2",
+    "ev-emitter": "^1.1.1",
+    "fizzy-ui-utils": "^2.0.7",
+    "get-size": "^2.0.3",
+    "jquery": "^3.3.1",
+    "outlayer": "^2.1.1"
+  }
+}
