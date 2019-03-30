@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
     const newsTicker = {
         init() {
             this.cacheDOM();
@@ -28,13 +28,13 @@ $(document).ready(function() {
                 fontSize: "1.8em",
                 whiteSpace: "nowrap"
             };
-            this.blockArr = $(this.$ticker).get().map(e => $(e).text());
+            this.blockArr = $(this.$ticker).get().map(e => $(e).html());
             this.itemNum = -1;
         },
         ticker() {
             this.itemNum = this.itemNum < this.blockArr.length - 1 ? this.itemNum + 1 : 0;
             $(this.$news).css(this.style);
-            $(this.$news).text(this.blockArr[this.itemNum]);
+            $(this.$news).html(this.blockArr[this.itemNum]);
             this.render();
         },
         render() {
